@@ -1,0 +1,29 @@
+@mixin perfect-line-height($font, $fm-emSquare, $fm-capitalHeight, $fm-ascender, $fm-descender, $fm-linegap, $capital-height, $line-height)
+{
+	/* compute needed values */
+	$lineheightNormal	: $fm-ascender + $fm-descender + $fm-linegap;
+	$distanceBottom		: $fm-descender;
+	$distanceTop		: $fm-ascender - $fm-capitalHeight;
+	$computedFontSize	: $capital-height / $fm-capitalHeight;
+	$contentArea		: $lineheightNormal * $computedFontSize;
+	$valign				: ($distanceBottom - $distanceTop) * $computedFontSize;
+	$computedLineheight	: $line-height * $capital-height - $valign;
+
+	font-family	: $font;
+	font-size	: $computedFontSize * 1px;
+	line-height	: $computedLineheight * 1px;
+
+	a
+	{
+		line-height	: $computedLineheight * 1px;
+		vertical-align: $valign * 1px;
+	}
+
+	button
+	{
+		line-height	: $computedLineheight * 1px;
+		vertical-align: $valign * 1px;
+	}
+
+
+}

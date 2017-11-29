@@ -1,0 +1,59 @@
+{
+  "name": "01570001",
+  "version": "0.1.0",
+  "description": "Hans Marsmann GmbH",
+  "homepage": "http://lh-1.marsmann-gmbh.lan/",
+  "repository": {
+    "type": "git",
+    "url": "./0157-0001.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: No test specified\" && exit 1"
+  },
+  "author": "Jan Berents",
+  "email": "sayhi@janberents.com",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "browser-sync": "^2.18.13",
+    "critical": "^0.9.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-jsonminify": "^1.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-remember": "^0.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-responsive": "^2.8.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "imagemin-pngquant": "^5.0.1",
+    "node-gyp": "^3.6.2",
+    "run-sequence": "^2.2.0",
+    "sharp": "^0.18.4"
+  },
+  "dependencies": {
+    "fontfaceobserver": "^2.0.13",
+    "foundation-sites": "^6.4.4-rc1",
+    "headroom.js": "^0.9.4",
+    "imagesloaded": "^4.1.3",
+    "isotope-layout": "^3.0.4",
+    "jquery": "^3.2.1",
+    "lazysizes": "^4.0.0-rc4",
+    "motion-ui": "^1.2.3",
+    "pwacompat": "^1.0.3",
+    "svgxuse": "^1.2.4"
+  }
+}
